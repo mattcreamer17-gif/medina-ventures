@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A read on where AI orchestration fits in Medina Ventures' portfolio support layer</title>
+<meta name="description" content="Manny and Melissa built this conference. A note to Medina Ventures on the orchestration layer above the deep-tech portfolio, from the team at Eduba." />
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Top bar: Medina only -->
+<header class="topbar" role="banner">
+  <div class="topbar-inner">
+    <a class="brand" href="https://www.medinavc.com/" target="_blank" rel="noopener" aria-label="Medina Ventures">
+      <img src="logo.png" alt="Medina Ventures" />
+    </a>
+    <span class="topbar-meta">Prepared for Medina Ventures · eMerge Americas 2026</span>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" aria-labelledby="lede">
+  <div class="hero-inner">
+    <div class="eyebrow">A note from a conference sponsor</div>
+    <h1 id="lede">A read on where AI orchestration fits in Medina Ventures' <em>portfolio support layer</em>.</h1>
+    <p class="hero-deck">Manny and Melissa built this conference. We wanted to show up having done the homework on your deep-tech thesis, not on generic VC pitch language. This page is that homework.</p>
+    <div class="hero-cats" aria-label="Medina Ventures categories">
+      <span>AI Infrastructure</span>
+      <span>Quantum Technologies</span>
+      <span>Next-Gen Cybersecurity</span>
+    </div>
+  </div>
+</section>
+
+<!-- Pitch body (Section 7) -->
+<section class="section pitch" aria-labelledby="pitch-title">
+  <div class="section-inner">
+    <div class="sec-label" id="pitch-title">The engagement, in prose</div>
+    <div class="grid">
+      <aside>
+        <div class="rule"></div>
+        <p>Methodology at the top. Engineering depth below it. One relationship to manage.</p>
+      </aside>
+      <div class="prose">
+        <p class="lede">Medina Ventures invests at the intersection of AI infrastructure, quantum technologies, and next-generation cybersecurity. The public thesis is clear: back exceptional founders building the enabling infrastructure for the next wave, at Seed and Series A, with roughly half of committed capital reserved for follow-on.</p>
+
+        <p>The platform advantage is equally clear. Exclusive early access through eMerge Americas. A team of operators who built and scaled category-defining infrastructure companies. A Miami-anchored pipeline that reaches Latin America.</p>
+
+        <p>The gap that small GPs describe privately is not sourcing, and not conviction. It is the bandwidth to take a portfolio company from term sheet to second enterprise contract. Partner time is finite. Platform teams at Seed-stage funds are thin by design. The practical question becomes: when a portco needs an orchestration layer designed above their core tech, who does the fund refer them to, and does that referral produce a deliverable the portco can actually ship.</p>
+
+        <p>Eduba is built for that referral. The 60/30/10 frame says that most problems belong to traditional code or rule-based logic, and only about a tenth belong to genuine LLM work. Applied to a Medina portfolio company, the output is a short, testable read: which parts of the stack benefit from an AI orchestration layer, which parts should stay deterministic, and which parts should not be built at all. The deliverable is the architecture, and then, when warranted, the bespoke implementation on top of the portco's existing stack.</p>
+
+        <p>For work that sits below the orchestration layer (production ML pipelines, data infrastructure, full-stack dev-heavy builds), Eduba partners with NLP Logix, which has been in machine learning since 2011 and runs over 150 data scientists. That split is the structural shape we think matches Medina Ventures' preferred referral posture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- The 60 / 30 / 10 frame -->
+<section class="section frame" aria-labelledby="frame-title">
+  <div class="section-inner">
+    <div class="sec-label" id="frame-title">The frame we apply to a portco's stack</div>
+    <h2>Most of what gets labeled "AI work" is not AI work. Naming the layer is the engagement.</h2>
+    <div class="frame-grid" role="list">
+      <article class="frame-cell" role="listitem">
+        <div class="num">60<sup>%</sup></div>
+        <h3>Traditional code</h3>
+        <p>Deterministic logic, databases, and pipelines. Faster, cheaper, and with stronger guarantees than an LLM would give. Most "AI" spend lands here by mistake.</p>
+      </article>
+      <article class="frame-cell" role="listitem">
+        <div class="num">30<sup>%</sup></div>
+        <h3>Rule-based logic</h3>
+        <p>Structured decisions that belong in rules engines and workflow orchestration. Legible, auditable, and the right home for compliance-heavy operations.</p>
+      </article>
+      <article class="frame-cell" role="listitem">
+        <div class="num">10<sup>%</sup></div>
+        <h3>Genuine AI problems</h3>
+        <p>The slice where an LLM or model earns its keep. Placed above the stack, governed with intent, integrated cleanly with the other two layers.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- References (case ledger) -->
+<section class="section refs" aria-labelledby="refs-title">
+  <div class="section-inner">
+    <div class="sec-label" id="refs-title">Reference points that travel</div>
+    <h2>The cases we would pull on, depending on the portfolio company.</h2>
+    <div class="ledger" role="list">
+      <div class="ref-row" role="listitem">
+        <div class="client">Correlation One</div>
+        <div class="detail">1,500+ people trained at Pacific Life and Colgate-Palmolive since May 2025. Six thousand to nine thousand hours saved per year. 95% still using the tools 30 days after the workshop.</div>
+        <div class="tag">Enterprise L&amp;D</div>
+      </div>
+      <div class="ref-row" role="listitem">
+        <div class="client">KPMG UK</div>
+        <div class="detail">40+ executives trained at KPMG UK, one of the Big Four. Regulated-industry audience, leadership-level cohort.</div>
+        <div class="tag">Professional Services</div>
+      </div>
+      <div class="ref-row" role="listitem">
+        <div class="client">Feeld</div>
+        <div class="detail">CTO-to-CTO scoped sprint with Andrew Santus. Workshop, advisory calls, Organizational Context Architecture, Strategic Operations Framework. The right reference when a Medina portfolio CTO is the end customer.</div>
+        <div class="tag">Product &amp; CTO</div>
+      </div>
+      <div class="ref-row" role="listitem">
+        <div class="client">VigilOre</div>
+        <div class="detail">Multi-agent compliance platform for DRC mining operations. 160+ hours of manual compliance work collapsed to under five minutes. Document-heavy, regulated workflow.</div>
+        <div class="tag">Compliance &amp; Regulated</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Methodology -->
+<section class="section method" aria-labelledby="method-title">
+  <div class="section-inner">
+    <div class="sec-label" id="method-title">The methodology is published</div>
+    <div class="method-grid">
+      <div>
+        <h2>Deep-tech GPs tend to read the paper first. This is the paper.</h2>
+        <p>Interpretable Context Methodology treats agent context as a layered filesystem. L0 identity through L4 working artifacts, with measurable interpretability and reproducibility gains and a 52-member practitioner community. It is the spine of every engagement.</p>
+        <p>For the governance-and-security conversation that Tier4AI, Qunnect, Hedgehog, and Appgate alumni founders tend to raise, a second paper travels alongside: the Ethics Engine, a psychometric assessment tool for evaluating ideological and moral patterns in LLMs.</p>
+      </div>
+      <div class="paper-card">
+        <span class="tag">Paper · MIT License · Open Source</span>
+        <h3>Interpretable Context Methodology: Folder Structure as Agent Architecture</h3>
+        <p>Submitted to ACM TiiS. Open repository under MIT. The core claim is that agent context can be organized as a layered filesystem with measurable interpretability and reproducibility gains.</p>
+        <div class="links">
+          <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>
+          <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">arxiv.org/abs/2510.11742 · Ethics Engine</a>
+          <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">github.com/RinDig/AuditEngine · Ethics Engine code</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta" aria-labelledby="cta-title">
+  <div class="section-inner cta-inner">
+    <div>
+      <div class="sec-label">The next 30 minutes</div>
+      <h2 id="cta-title">Bring one portfolio company whose orchestration layer you have been meaning to look at.</h2>
+      <p>We will walk the stack together and leave you with a one-page read you can forward to the founder. No deck. No generic audit template. The page is the deliverable.</p>
+      <p class="cta-host">Hosted by <strong>Matt Creamer</strong>, Chief Revenue Officer, Eduba.</p>
+    </div>
+    <div class="cta-btn-wrap">
+      <a class="cta-btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener" aria-label="Book 30 minutes with Matt Creamer on Calendly">
+        Book the 30 minutes
+      </a>
+      <div class="cta-url">
+        <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer (the only place Eduba appears) -->
+<footer role="contentinfo">
+  <div class="foot-inner">
+    <div class="foot-left">
+      Prepared by Eduba
+      <small><a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a> · The Faces of Interface</small>
+    </div>
+    <div class="foot-right">
+      Built for Medina Ventures · eMerge Americas 2026<br />
+      <a href="mailto:theceo@eduba.io">theceo@eduba.io</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
